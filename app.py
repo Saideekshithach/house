@@ -41,7 +41,7 @@ property_type_mapping = {
 with open('Model.pkl', 'rb') as f:
     model = pickle.load(f)
 
-with open('Scaler.pkl', 'rb') as f:
+with open('scaler.pkl', 'rb') as f:
     scaler = pickle.load(f)
 
 def predict(bed, bath, loc, size, status, face, Type):
